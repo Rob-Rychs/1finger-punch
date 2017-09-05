@@ -6,7 +6,8 @@ loader().then((monaco) => {
   let editor = monaco.editor.create(document.querySelector('#container'), {
     language: 'javascript',
     theme: 'vs-dark',
-    automaticLayout: true
+    automaticLayout: true,
+    fontSize: 28
   })
 
   ipcRenderer.on('open-file', (e, url) => {
