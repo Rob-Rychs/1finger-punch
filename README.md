@@ -62,7 +62,7 @@
 
 - build electron menu
 
-- enable zoom in/out
+- fix screen flashing white on zoom in/out
 
 - fix white screen on app loading with [this](https://www.christianengvall.se/electron-white-screen-app-startup/)
 
