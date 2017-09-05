@@ -66,6 +66,7 @@
 
 - loading screen icon image animation with fade to main using [this](https://stackoverflow.com/questions/42292608/electron-loading-animation) and maybe [this](https://www.christianengvall.se/electron-white-screen-app-startup/)
 
+- implement a way to open a new window in menu when window open or auto close application on close of browserWindow <b>bug: have to quit with command q and relaunch every time</b>
 ### Aknowledgements
 
 Special thanks to [@felixrieseberg](https://github.com/felixrieseberg) for his great presentation at infoShare 2017, which gave me both the inspiration and the starting point for this app. You can watch his talk [here](https://www.youtube.com/watch?v=7huz8Kx1nLw)
