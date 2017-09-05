@@ -60,9 +60,9 @@
 
 - look at [push.js](https://www.npmjs.com/package/push-js) vs. [node-notifier](https://www.npmjs.com/package/node-notifier)
 
-- build electron menu
+- build electron menu, make a "change language tab/button", "connect to github remote repo and sync/push", "save local to disk", "open multiple files in same browserWindow using tabs", "snippet manager", showMeRandom function opening one from repo
 
-- try finding 'vs-dark' theme for monaco backgroundColor hex
+- try finding 'vs-dark' theme for monaco backgroundColor hex, create own theme
 
 - loading screen icon image animation with fade to main using [this](https://stackoverflow.com/questions/42292608/electron-loading-animation) and maybe [this](https://www.christianengvall.se/electron-white-screen-app-startup/)
 
