@@ -20,7 +20,7 @@
 
 - <b>Javascript Playground</b> Open the devtools console with `CMND + OPTION + I` (on Mac) and test/run your javascript code right in the console same as you would in a normal google chrome browser
 
-- You can even run node.js code in the console too! check it out; try running: `const fs = require('fs')` followed by `console.log(fs)` in the console. Now you have access to the fs object! - Question: "But what does this MEAN???" Answer: <b>"The sky is the limit"</b>
+- <b>Node.js Playground</b> You can even run node.js code in the console too! check it out; try running: `const fs = require('fs')` followed by `console.log(fs)` in the console. Now you have access to the fs object! - Question: "But what does this MEAN???" Answer: <b>"The sky is the limit"</b>
 
 "To hell with circumstances; I create opportunities." — <b>Bruce Lee</b>
 
