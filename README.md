@@ -62,7 +62,7 @@
 
 - build electron menu
 
-- change editor font bigger, enable zoom in/out
+- enable zoom in/out
 
 - fix white screen on app loading with [this](https://www.christianengvall.se/electron-white-screen-app-startup/)
 

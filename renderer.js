@@ -7,7 +7,8 @@ loader().then((monaco) => {
     language: 'javascript',
     theme: 'vs-dark',
     automaticLayout: true,
-    fontSize: 28
+    fontSize: 28,
+    wordWrap: "on"
   })
 
   ipcRenderer.on('open-file', (e, url) => {
