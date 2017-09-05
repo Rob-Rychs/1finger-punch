@@ -3,8 +3,9 @@ const path = require('path');
 
 app.on('ready', () => {
   let mainWindow = new BrowserWindow({
-    icon: path.join(__dirname, './icons/png/64x64.png')
+    icon: path.join(__dirname, './icons/png/64x64.png'),
     // titleBarStyle: 'hidden-inset',
+    backgroundColor: '#212121'
   })
 
   mainWindow.loadURL(`file://${__dirname}/index.html`)
