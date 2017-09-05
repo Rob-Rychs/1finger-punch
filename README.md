@@ -62,7 +62,7 @@
 
 - build electron menu
 
-- fix screen flashing white on zoom in/out
+- try finding 'vs-dark' theme for monaco backgroundColor hex
 
 - fix white screen on app loading with [this](https://www.christianengvall.se/electron-white-screen-app-startup/)
 
