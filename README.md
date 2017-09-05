@@ -62,6 +62,12 @@
 
 - build electron menu
 
+- change editor font bigger, enable zoom in/out
+
+- fix white screen on app loading with [this](https://www.christianengvall.se/electron-white-screen-app-startup/)
+
+- loading screen icon image animation with fade to main using [this](https://stackoverflow.com/questions/42292608/electron-loading-animation)
+
 ### Aknowledgements
 
 Special thanks to [@felixrieseberg](https://github.com/felixrieseberg) for his great presentation at infoShare 2017, which gave me both the inspiration and the starting point for this app. You can watch his talk [here](https://www.youtube.com/watch?v=7huz8Kx1nLw)
