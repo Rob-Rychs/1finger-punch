@@ -64,9 +64,7 @@
 
 - try finding 'vs-dark' theme for monaco backgroundColor hex
 
-- fix white screen on app loading with [this](https://www.christianengvall.se/electron-white-screen-app-startup/)
-
-- loading screen icon image animation with fade to main using [this](https://stackoverflow.com/questions/42292608/electron-loading-animation)
+- loading screen icon image animation with fade to main using [this](https://stackoverflow.com/questions/42292608/electron-loading-animation) and maybe [this](https://www.christianengvall.se/electron-white-screen-app-startup/)
 
 ### Aknowledgements
 
