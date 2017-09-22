@@ -20,7 +20,7 @@
 
 - <b>Javascript Playground</b> Open the devtools console with `CMND + OPTION + I` (on Mac) and test/run your javascript code right in the console same as you would in a normal google chrome browser
 
-- <b>Node.js Playground</b> You can even run node.js code in the console too! check it out; try running: `const fs = require('fs')` followed by `console.log(fs)` in the console. Now you have access to the fs object! - Question: "But what does this MEAN???" Answer: <b>"The sky is the limit"</b>
+- <b>Node.js Playground</b> You can even run node.js code in the console too! check it out; try running: `const fs = require('fs')`, `const os = require('os')` followed by `console.log(fs)`, `console.log(os)`, `os`  and `fs.readdirSync(os.homedir())` in the console. Now you have access to the fs and os objects! - And your using it to read the homedir of the operating system! Question: "But what does this MEAN???" Answer: <b>"The sky is the limit"</b>
 
 "To hell with circumstances; I create opportunities." — <b>Bruce Lee</b>
 
@@ -54,19 +54,64 @@
 
 3. Run `npm start` to test local changes (icon won't work unless you run build)
 
-4. Before making a PR make sure to run the build steps <b>3.</b> and <b>4.</b> from above section and ensure that all changes are correctly showing 
+4. Before making a PR make sure to run the build steps <b>3.</b> and <b>4.</b> from above section and ensure that all changes are correctly showing.
 
 ### Todos
 
-- look at [push.js](https://www.npmjs.com/package/push-js) vs. [node-notifier](https://www.npmjs.com/package/node-notifier)
+- look at [push.js](https://www.npmjs.com/package/push-js) vs. [node-notifier](https://www.npmjs.com/package/node-notifier) vs. <b>search for a native electron package</b>
 
 - build electron menu, make a "change language tab/button", "connect to github remote repo and sync/push", "save local to disk", "open multiple files in same browserWindow using tabs", "snippet manager", showMeRandom function opening one from repo
 
-- try finding 'vs-dark' theme for monaco backgroundColor hex, create own theme
+- try finding 'vs-dark' theme for monaco backgroundColor hex, loadDifferent themes for monaco editor (dracula), create own theme
 
 - loading screen icon image animation with fade to main using [this](https://stackoverflow.com/questions/42292608/electron-loading-animation) and maybe [this](https://www.christianengvall.se/electron-white-screen-app-startup/)
 
 - implement a way to open a new window in menu when window open or auto close application on close of browserWindow <b>bug: have to quit with command q and relaunch every time</b>
+
+- checkout [this repo](https://github.com/felixrieseberg/introducing-electron-editor) for ideas for features and code examples for saving files, etc (check branches)
+
+- update project repo to use [electron-forge](https://electronforge.io) cli tool (yes it'll replace your custom packager scripts but the benefits of electron-compile will be worth it)
+
+- electron-prbuilt-compile for ESnext
+
+- cool electron stock price tracker: https://www.youtube.com/watch?v=6_V85t64OSI 
+
+### Bunch of Awesome electron features to checkout and implement
+
+Auto Updater 
+Dialogs
+Push Notifications
+ES2015
+Async/Await
+Mac App Store
+Clipboard
+Menubar Apps 
+Global Shortcuts
+Windows App Store 
+Installer Generation
+Shell Operations
+WebViews 
+Desktop Capturing
+DevTools
+Webcam 
+Microphone
+WebRTCP2P
+`window.fetch()`
+CSS custom properties
+Native Notifications 
+Custom Protocols
+Power Save Blocking
+Multi Processes
+Tray Icons 
+Dock Icons
+Chromium Feature Flags
+CrashReporter
+App Menus
+Context Menus 
+Screen Apis
+[...1323 Electron npm modules]
+WebTorrent
+
 ### Aknowledgements
 
 Special thanks to [@felixrieseberg](https://github.com/felixrieseberg) for his great presentation at infoShare 2017, which gave me both the inspiration and the starting point for this app. You can watch his talk [here](https://www.youtube.com/watch?v=7huz8Kx1nLw)
