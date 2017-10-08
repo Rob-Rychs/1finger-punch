@@ -58,7 +58,9 @@
 
 ### Todos
 
-- look at [push.js](https://www.npmjs.com/package/push-js) vs. [node-notifier](https://www.npmjs.com/package/node-notifier) vs. <b>search for a native electron package</b>
+- Implement electron-notifications package
+
+- look at [push.js](https://www.npmjs.com/package/push-js) vs. [node-notifier](https://www.npmjs.com/package/node-notifier) vs. <b>use native electron API</b> [here](https://electron.atom.io/docs/tutorial/notifications/)
 
 - build electron menu, make a "change language tab/button", "connect to github remote repo and sync/push", "save local to disk", "open multiple files in same browserWindow using tabs", "snippet manager", showMeRandom function opening one from repo
 
